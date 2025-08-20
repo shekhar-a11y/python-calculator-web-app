@@ -109,3 +109,6 @@ def clear_history():
 
 if __name__ == '__main__':
     app.run(debug=True, host='127.0.0.1', port=5000)
+
+# For Vercel deployment - expose the app as 'app' variable
+# This is required for Vercel to recognize the Flask application
